@@ -1,0 +1,12 @@
+name: Run Tests
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running tests
+        run: echo "Processing ...."
